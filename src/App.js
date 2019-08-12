@@ -21,7 +21,6 @@ class App extends Component {
   }
 
   handleClick = (email) => {
-    console.log('click', email);
     let user = this.state.users.find(user => {
       return user.email === email
     })
@@ -29,7 +28,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state);
     return (
         <div className="App">
             <Header appName="SuperDate"/>

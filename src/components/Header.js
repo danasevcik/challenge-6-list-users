@@ -6,7 +6,7 @@ class Header extends React.Component {
   render() {
     return(
         <header className="App-header">
-            <h1>{this.props.appName}</h1>
+          <h1>{this.props.appName}</h1>
         </header>
     );
   }

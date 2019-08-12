@@ -3,7 +3,6 @@ import React from 'react';
 class Card extends React.Component {
 
   render() {
-    console.log(this.props);
     return(
       <div onClick={() => this.props.handleClick(this.props.user.email)}>
         <h1>Name: {this.props.user.name.first.toUpperCase() + " " + this.props.user.name.last.toUpperCase()}</h1>
